@@ -1,10 +1,8 @@
-WebServiceTraining
-==================
-
 Java Web Service Training Program
+=================================
 
-Java Web Service Training Program
-1. **Course Objective**
+
+1. Course Objective
   1. Apply the JAX-WS API in the creation of SOAP Web Services and clients
   2. Apply the JAX-RS API in the creation of RESTful Web Services
   3. Secure Web Services using WS-Security, Jersey, and OAuth
@@ -137,6 +135,7 @@ Course Contents
   2. Describing the request lifecycle when using OAuth
   3. Creating OAuth enabled services using Jersey
   4. Creating OAuth enabled clients using Jersey
+  
 ￼￼￼￼￼
 Tools and Environment Used and Explained (Installation and Configuration)
 - JBoss AS 7.1
