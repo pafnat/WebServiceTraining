@@ -4,18 +4,23 @@ import net.webservicex.GeoIP;
 import net.webservicex.GeoIPService;
 import net.webservicex.GeoIPServiceSoap;
 
+/**
+ * http://www.webservicex.net/geoipservice.asmx?op=GetGeoIP
+ * GeoIPService - GetGeoIP enables you to easily look up countries by IP addresses
+ * http://www.webservicex.net/geoipservice.asmx?WSDL
+ */
 public class GeoIpClient {
 
     public static void main(String[] args) {
 
-        String ipAddess = "173.194.32.130";
+        String ipAddress = "173.194.32.135"; // google.com IP
 
         GeoIPService geoIPService = new GeoIPService();
         GeoIPServiceSoap geoIPServiceSoap = geoIPService.getGeoIPServiceSoap();
 
         //System.out.println(geoIPServiceSoap.getGeoIPContext());
 
-        GeoIP geoIp = geoIPServiceSoap.getGeoIP(ipAddess);
+        GeoIP geoIp = geoIPServiceSoap.getGeoIP(ipAddress);
 
         System.out.println("Google server = " + geoIp.getCountryName());
 
