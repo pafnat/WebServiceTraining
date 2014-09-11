@@ -1,0 +1,121 @@
+Day -3 
+==============
+
+Web Service Provider 
+
+	Endpoint.publish("uri",SEI Class);
+
+ -> Web Server Comes with Java Installation 
+ -> Apache Tomcat (Web Server)
+ -> Apache JBoss  (Application Server) 	
+
+Web Service Consumer 
+
+ 
+
+
+-> WSDL 
+-> SOAP 
+-> UDDI 
+
+-> Maven Built (Mandatory Requirement to learn for every Java Developer)
+
+
+##What is Web Service ?
+
+->Web Service is an Application or Bussines Logic that is accessible using Standard Internet Protocol. 
+
+-> Web Service is a powerfull Intergration Architecture that enables the application to Dynamicaly 
+	interact across the netwrok through the use of Open Internet technology.
+
+-> Network accessible interface to application functinality.
+
+-> Uses the Stndard technology such as HTTP and XML.
+
+
+
+Web Service Terminolgy 
+
+	-> Published 
+	-> Invoked
+	-> Bound/Binding
+	-> Found
+	-> Described 
+	-> Composed
+	-> Modular
+
+
+-> Web Service is new form of MiddleWare based on XML and Web Protocol.
+
+-> XML And Web help to resolve the traditional Application Integration RUles(RPC/CRORBA/RMI/DCOM).
+
+-> Web Service OverCome the Disadvantages
+
+	# Platform and Language Indepdent.
+	# Less Expensive
+	# RPC/CRORBA/RMI/DCOM Tightly Coupled.Where as Web Service is loosely Coupled
+	# Minimizes the Impact of Changes to the Application.
+	# Promoting the ReUsability.
+	# Reduces the maintanance cost.
+	# Promoting Interoperability 
+	
+
+
+	
+
+-> JAX WS Tomcat Project Creation And Deployment 
+
+
+
+EJB Container   (Web Application Server )  WebLogic/WebSphere is EJB Conatiner ...
+
+Servlet Container (Web Server)   Tomcat is a Web Server
+
+
+
+6:30 AM IST       7:30  AM IST  - 9:30 ()
+9:00 PM EST      10:00  PM EST 
+5:00 AM MOSCOW    6:00 AM MOSCOW
+
+
+
+
+Optional Doubt Clearing session ...
+
+Saturday   9:30 PM IST 
+Satuday    8:00 AM EST 
+Saturday   8:00 PM Moscow             
+
+
+XML , XSD , Schema ..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

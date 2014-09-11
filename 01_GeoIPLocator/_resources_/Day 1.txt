@@ -1,0 +1,203 @@
+What is Web Service ?
+
+What is Java Web Services ?
+
+
+History Of Web Services ?
+
+
+Why Web Services ?
+
+
+
+
+-> Provides you a Standard Means of Interoperable Interatcion Architecure that Enables the application Dynamicly Interact Accross the Newtwork 
+
+
+-> A Web Service is a Machine to Machine Communication , Not for Human Consumption /Communication ..
+
+
+W3c.com -> World Wide Web Consortuim :- Defing the rule to Publish a Web Services...Or Consume a Web Service ...
+
+
+UDDI :- Universal Discovery Desciopn 
+
+
+URL :- Containg the details of the web Service ...
+
+
+Method(Parameters)
+
+return type 
+
+Java Web Services
+
+->SOAP Based (JAX- WS)/ Big Web Services Older one compare to REST ..
+	-> Web Service Provider 
+	-> Web Service Consumer 
+		->
+
+-> REST   (JAX- RS)
+	-> Web Service Provider 
+	-> Web Service Consumer 
+
+
+
+
+
+
+Web Application  :- Visitors Information ..Which Country Are From ..
+
+Georaphical Location, Currency, Capital ...
+
+Country Name -> Satets Cuntry is having -> 
+State Name -> What are City the State is having 
+Weather information 
+
+
+
+
+
+
+SOAP
+WSDL 
+UDDI - Yellow Pages, Directory Where you need to Register all published web services...
+
+
+WSDL File can be consumed/Generated/Read by the tools...
+
+
+
+
+In My Blog want to Check the Visitors are from which country ...
+
+
+->Java EE -6 Implementation of SOAP Based Web Service 
+	http://www.webservicex.net/geoipservice.asmx?WSDL
+
+wsgen.exe
+wsimport.exe
+
+-------------------------
+XML, XSD , XML Schema ..
+
+
+XMl Parsing :-> DOM Parser And SAX Parser ...
+
+
+How to Parse A XML ....
+
+
+--> Annotations Required to make Service Provider Class with Annotation Arguments
+--> Annotations Required to make Service Consumer Class with Annotation Arguments
+
+Spring, Hibernate, Web Service 
+
+SEI :- Service End Point Interface 
+
+
+Country Name -> List Of States in the Country 
+State Name -> City Names in the State .
+
+
+Assignment :- 
+
+Java 6 
+
+JDK 6 or JDK 7 installed on you machine..
+
+http://www.service-repository.com/service/overview/586914408
+
+
+Tools --> 
+
+
+
+
+Understand the Reuirement ..
+
+1 Week SOAP 
+2 WEEK REST 
+3 WEEK REST +Spring +Hibernate Integrations
+4 Week SOAP + Spring +Hibernate Integrations 
+
+
+
+
+Maven Config ..
++
+SOAP Based Web Service Provider Application ....+ We will have our won WSDL file + Consumer ...
+
+
+
+
+
+
+
+
+-> Provides you a Standard Means of Interoperable Interatcion Architecure that Enables the application Dynamicly Interact Accross the Newtwork 
+
+
+->Interoperable Interatcion Architecure
+
+Web Service is Platform Independent.
+Web Service is Language Independent.
+Web Service is Interoperable . 
+
+SOAP Bases(JAX WS)
+
+SOAP -> Simple Object Access Protocol ..
+
+
+
+XML is Platform Independent.
+XML is Language Independent.
+XML  is Interoperable . 
+
+
+You can create a XML file in Any Language and Read the XML file using any Language..
+
+
+
+
+XML :- Extensbile Markup Langugage 
+	-> It has user defined tag 
+	-> Every tag you open must be closed
+	-> Used for data transaction, Persistent 
+	-> XML is fastest Data transation format
+
+HTML :- Hiper text Markup Language 
+	-> Pre defined tag 
+	-> Every tag you openneed not be closed	
+	-> Its used for representation 
+
+
+
+JAX WS- > (SOAP):- Java API for XML Web Service 
+
+API :- Application Programming Interface 
+
+JAX RS -> API :-  REST Full Web Services..
+
+
+
+
+Good Quality Head Phone ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

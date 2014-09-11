@@ -1,0 +1,72 @@
+Day -3 Maven Configuration 
+===============================
+
+Apache Software Foundation 
+
+
+Maven Is Configuration Management Tool . 
+
+
+
+1) http://maven.apache.org/download.cgi 
+
+Download apache-maven-3.0.5 bin .zip
+
+2) Extract ..make the floder name little shorter may be Maven3
+
+3) Environment Variable Setup 
+
+	JAVA_HOME=C:\Program Files\Java\jdk1.7.0_67
+	path     =C:\Program Files\Java\jdk1.7.0_67\bin
+
+	JRE_HOME =C:\Program Files\Java\jdk1.7.0_67\jre
+
+	M2_HOME=D:\Training Repository\Java Web Service Sept 2014 Batch\Maven3
+	path   =D:\Training Repository\Java Web Service Sept 2014 Batch\Maven3\bin
+
+
+
+4) mvn -version
+
+	
+
+5)  Copy setting.xml from D:\Training Repository\Java Web Service Sept 2014 Batch\Maven3\conf   to C:\Users\Dell\.m2
+
+
+
+6) Creating a Java Project 
+
+	mvn archetype:generate 
+
+
+7) You Need to Provide Below information in order to create a Maven Project 
+
+	groupId= com.jaxws.mavenEx         
+	(Every Maven Depdency (jar file) can be represented uniquly by a xml containing the tags groupId, ArtifactId and Version)
+
+
+8) 
+
+D:\Training Repository\Java Web Service Sept 2014 Batch\MavenProjects>mvn archetype:generate 
+									-DgroupId=com.jaxws 
+									-DartifactId=mavenWebAppDemo 
+									-DarchetypeArtifactId=maven-archetype-webapp 
+									-DinteratciveMode=false
+
+9) pom.xml Project Object Model 
+
+
+We will providing project specific dependency , server , deployments , architeure , build , details here 
+
+
+10) Eclipse Kepler comes with Maven Plugin . other eclipse you will have to download the Eclipse plugin 
+
+	Better to use the eclipse kepler..
+
+	http://www.eclipse.org/kepler/
+
+	juno/indigo  download centre (Market Place you can configure)..
+
+
+
+

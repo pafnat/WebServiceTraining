@@ -1,0 +1,81 @@
+Web Service Day -2
+==========================
+
+
+Java Web Services
+
+-> Web Services are Client And Server Applications that communicate over the World Wide Web's 
+Hipertext Transfer Prototocol .
+
+-> Service Available over the Internet for machine to machine communication.
+	-> Web Site (Machine to Human Server)
+	-> Web Application (Both Machine to Human and Human To Machine)
+	-> Web Services (Machine to Machine Communication )  (URI/ WSDL File Location)
+
+
+SOAP Based  JAX WS
+
+	-> WSDL 
+	-> SOAP 
+	-> UDDI Registry (Catlouge of web service listing)
+
+	-> Various Implementation 
+
+REST Based  JAX RS
+
+
+
+-> SOAP Based XML 
+-> REST Based JSON 
+
+
+
+Service Consumer (You Need to have the WSDL File Readyyou get from UDDI)
+We Used wsimport  java 6 Specification 
+
+
+
+Service Provider 
+->wsgen.exe
+
+Service Consumer 
+-> wsimport.exe
+
+
+Tomcat And JBoss--
+
+ 
+
+Example 3) wsgen -s src -cp bin com.jaxws.calc.CalculateSum
+
+Web Service Provider Development Using Simple Java Web Application , Comes with JDK Installation its Light weight ..faster ...
+and using wsgen to generate the Stubs and Endpoint.publish to publish the web service on java web server..
+
+
+wsimport 
+
+wsgen -s src -cp bin -d bin com.jaxws.calc.CalculateSum
+
+wsimport -s src -d bin http://localhost:8080/JaxWsCalculate/CalculateSum?WSDL
+
+
+
+SAAJ :- 
+
+Alfresco :- Content Management Framework ..Open Source / COTS Product 
+
+
+
+Tomcat Application Deployement of a JAX WS Web Service Server And Client May be a Java Application
+JBoss Application Deployement of a JAX WS Web Service Server And Client May be a Java Application
+Maven +Tomcat Application Deployement of a JAX WS Web Service Server And Client May be a Java Application
+Maven +JBoss Application Deployement of a JAX WS Web Service Server And Client May be a Java Application
+
+
+
+XML , XSD . XML Schema 
+
+
+
+
+

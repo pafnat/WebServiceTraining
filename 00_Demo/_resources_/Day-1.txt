@@ -1,0 +1,179 @@
+Day - Demo Session 
+
+Java Web Service ..
+
+Learning By Doing ....More Hand s on Exercise ...
+
+
+
+Java Web service 
+
+
+JAX WS (SOAP)
+
+JAX RS (REST)
+
+IDE
+---------------
+Eclipse ,
+NetBeans, 
+Intege Idea, 
+
+
+REST CLient 
+SOAP Client 
+
+Java Application integration With Web Service 
+Spring Integration with Web Service 
+Web Application (Servlet)
+
+
+XML, XSD , WSDL , SOAP , UDDI...
+
+
+
+
+What Is Web Service ..
+
+-> A Service which is for Machine Consumption , Is a Piece of Code , Is a Software 
+-> A Service Available on the Intenet is web Service ...
+-> A Software To Software Integration ..Secured way ..
+
+
+
+
+Staic Web Site  (HTML , Java Script)
+
+Dynamic Web Application 
+
+-> Every Thing Present on the Internet Must be represented Uniquely ....
+
+
+
+http://www.webservicex.net/geoipservice.asmx?op=GetGeoIP
+
+
+WSDL :- Web Service Description Language
+
+
+-> A Web Service WSDL file has all the infromation required to consume
+
+
+
+
+
+
+
+
+
+Web Service Implementation can be done in Java , .NET , PHP , C. C++...
+
+
+
+A Service Provider Can be Any One 
+
+-> Learn The Web Service Application Developers Role
+
+-> Learn Web Service Provider Application Developer Role 
+
+Both SOAP And REST ...
+
+
+
+Country Info :-  Country ID => Country State Web Service ..
+
+IP Address Give me Back the Country Name...
+
+
+WSDL :- World geaorpy Map ...
+
+
+
+	public String getAccountDetails(AccountType accType,AccNo, PIN, Expirty){  mm/DD
+		// Send to DAO Layer 
+		// Coonect with Database ,
+		// VeryFy the Authnication 
+
+		if (Auth){
+			
+			Return "WelCome  XYZ What Would You Like to Do , A Cahs Witdar...Trasfer ,.."
+		}Else(UnAut){
+			Return "You Are Not Auth to Do the txn ,.."		
+	
+	}
+
+
+
+
+
+A Service Consumer Can Be Any One ..
+
+
+
+Security Certificate (jar file...Piece of code to match the Encryption Key...)
+
+
+
+
+
+
+
+
+
+Java  6 :-   
+
+jdk installation 
+
+
+wsimport.exe  is for service consumer
+
+wsgen.exe  is for service Provider 
+
+
+Environment Variable:- 
+
+
+
+H:\app\Dell\product\11.1.0\db_1\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;
+
+C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;
+C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;
+%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;
+
+C:\Program Files (x86)\Windows Live\Shared;
+
+C:\Program Files\Java\jdk1.7.0_67\bin;
+
+CountryInfoService
+
+CountryInfoServiceSoapType  getCountryInfoServiceSoap
+
+
+SEI :- Service End Point 
+
+C:\Program Files\jEdit;D:\StudyMaterials\Java Web Services\Maven3_2\bin;D:\StudyMaterials\JUnit\junit-4.10.jar
+
+
+
+
+
+Monday - Friday  EST 9:00 PM    / 11:00 PM EST ..
+
+GMT . TUE 1:00 AM WED , THU FRI SAT --5 days a week...
+
+
+1:30  Session every Day ....+30 Mnts Doubt Clearing ....
+
+40 + hrs  25 Days ..More than a Months ...
+
+PDT - 6:00 PM to 8:00 PM Session 
+
+
+
+
+
+
+
+
+
+
