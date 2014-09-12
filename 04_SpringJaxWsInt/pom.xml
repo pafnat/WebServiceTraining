@@ -1,0 +1,120 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spring.jaxws</groupId>
+  <artifactId>SpringJaxWsInt</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>SpringJaxWsInt Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+
+
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-core</artifactId>
+          <version>3.2.3.RELEASE</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context</artifactId>
+          <version>3.2.3.RELEASE</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.sun.xml.ws</groupId>
+          <artifactId>jaxws-rt</artifactId>
+          <version>2.1.4</version>
+      </dependency>
+
+      <!-- Responsible for integration-->
+      <dependency>
+          <groupId>org.jvnet.jax-ws-commons.spring</groupId>
+          <artifactId>jaxws-spring</artifactId>
+          <version>1.8</version>
+      </dependency>
+
+
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+
+  </dependencies>
+
+
+
+    <build>
+    <finalName>SpringJaxWsInt</finalName>
+
+
+        <!--    Deploying with maven example  -->
+
+        <!--
+        To start\stop tomcat on Mac there is a simple app Tomcat Controller
+        available
+        -->
+
+        <!--
+        If we run index.jsp in Idea, the ROOT folder in webapps
+        will be rewritten. To prevent this, we can use the below
+        maven plugin or just copy war to webapps folder.
+        m2 settings file should also be changed.
+        apache-maven-3.1.1/conf/settings.xml:
+        <server>
+            <id>my-tomcat</id>
+            <username>tomcat</username>
+            <password>tomcat</password>
+        </server>
+        -->
+        <!-- Tomcat/conf/tomcat-users.xml: -->
+        <!-- Role to manage WAR files via HTML /manager. The name should be as is! -->
+        <!-- <role rolename="manager-gui"/> -->
+        <!-- Role to manage WAR files via script like Maven. The name should be as is! -->
+        <!-- <role rolename="manager-script"/> -->
+
+        <!-- One user cannot have manager-gui and manager-script roles -->
+        <!--
+        <user username="admin" password="admin" roles="manager-gui"/>
+        <user username="tomcat" password="tomcat" roles="manager-script"/>
+        -->
+
+   <plugins>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.5</source>
+                <target>1.5</target>
+            </configuration>
+        </plugin>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.1.1</version>
+            <configuration>
+                <failOnMissingWebXml>false</failOnMissingWebXml>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+            <version>2.1</version>
+            <configuration>
+                <url>http://localhost:8080/manager/text</url>
+                <server>my-tomcat</server>
+                <path>/SpringJaxWsInt</path>
+            </configuration>
+        </plugin>
+
+    </plugins>
+
+  </build>
+</project>
