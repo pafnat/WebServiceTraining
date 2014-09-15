@@ -1,0 +1,92 @@
+
+Java Web Service 
+
+Exampled Java Web Services, 
+Servce Provider and Service Consumer . 
+
+Eclipse Kepler 4.2
+
+Maven Built Tool :-
+
+
+Ex .=> Spring Integration With Java Web Service .JAX-WS Maven Project. 
+
+
+Java 6/ Java 7 
+
+-> Your Compiler version and Runtime environmnet should be same.
+
+
+
+Tomcat 7:- http://tomcat.apache.org/download-70.cgi
+
+JObss-     http://jbossas.jboss.org/downloads.html
+
+
+Glashfish :- 
+
+
+
+XML, XSD , Schema...
+
+
+
+*** Making your container aware that what are the SEI/ Web Service Classes are 
+*** Loading the Web Service Classes into the Container Memory
+		(In order to make service classes ready to serve)
+		
+*** Understanding the Error And Exception 
+
+*** Among the Struts, JSF, Spring , Hibernate ....Spring has best error and exception handling mechanism ...
+
+
+
+HttpServlet 
+
+doget
+doPost
+
+
+Bean property 'jaxwsSpring' is not writable 
+or has an invalid setter method. 
+Does the parameter type of the setter match the return type of the getter?
+
+
+
+
+
+
+Doubt Clearing Session (Optional To Join)
+
+-> Discuss your Progress on Weekly Basis .
+-> Making sure your environment is ready, And Softwares required are installed.
+-> Making sure you are running the examples discussed in the week 
+-> If You have any query will be discussed
+
+Saturday EST Time :- 8:30 AM 
+Saturday GMT Time :-12:30 PM (Afternoon)
+Moscow Time       :- 4:30 OM 
+Saturday IST 	  :6:30 PM EST
+
+
+XML, XSD , Schema...
+
+
+JAX RS REST ...
+
+
+Will come back to SOAP in last week of session ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+

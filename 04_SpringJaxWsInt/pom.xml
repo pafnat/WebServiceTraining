@@ -22,17 +22,29 @@
           <version>3.2.3.RELEASE</version>
       </dependency>
 
+      <!-- Responsible for integration mechanism -->
       <dependency>
           <groupId>com.sun.xml.ws</groupId>
           <artifactId>jaxws-rt</artifactId>
           <version>2.1.4</version>
       </dependency>
 
-      <!-- Responsible for integration-->
       <dependency>
           <groupId>org.jvnet.jax-ws-commons.spring</groupId>
           <artifactId>jaxws-spring</artifactId>
           <version>1.8</version>
+          <!-- dependencies which we are do not need -->
+          <!-- this is an example -->
+          <exclusions>
+              <exclusion>
+                <groupId>com.sun.xml.stream.buffer</groupId>
+                <artifactId>streamBuffer</artifactId>
+              </exclusion>
+              <exclusion>
+                <groupId>org.jvnet.staxex</groupId>
+                <artifactId>stax-ex</artifactId>
+              </exclusion>
+          </exclusions>
       </dependency>
 
 
