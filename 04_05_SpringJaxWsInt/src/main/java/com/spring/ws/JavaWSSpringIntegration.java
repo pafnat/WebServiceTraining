@@ -1,7 +1,8 @@
 package com.spring.ws;
 
-import com.spring.ws.service.EmployeeService;
+//Service Name: {http://ws.spring.com/}JavaWSSpringIntegrationService
 
+import com.spring.service.EmployeeService;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
@@ -13,15 +14,13 @@ public class JavaWSSpringIntegration {
 
     EmployeeService jaxwsSpring;
 
-    @WebMethod(exclude = true) // Exposing the Public method and Include Inherited methods
+    @WebMethod(exclude = true) // Exposing the Public method and Include Any Inherited methods
     public void setJaxwsSpring(EmployeeService jaxwsSpring) {
-
         this.jaxwsSpring = jaxwsSpring;
-
     }
 
     @WebMethod(operationName = "getjaxwsSpringd")
-    public String getJaxwsSpringd() {
+    public String getjaxwsSpringd() {
 
         return jaxwsSpring.getJaxwsSpring();
 

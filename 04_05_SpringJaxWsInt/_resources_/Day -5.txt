@@ -1,0 +1,139 @@
+
+Day -5 
+
+==================
+
+2nd Week.
+
+1) Spring JAX WS Integration Examples and Annotation Used in this Examples
+2) SOAP Message Architecure
+3) XML Definition and Declaration.
+
+
+REST Full Web Services.
+
+How JAX RS is different from JAX WS ..Which Implementation to be used in what scenario.
+
+
+2nd week and 3rd Week we will discuss REST ...
+
+
+4th Week We will Come back to JAX WS ....SAAJ.. WS Security .....
+
+
+
+Spring And JAX WS Integration
+=================================
+
+
+@BindingType
+
+@RequestWrapper  -Supplies the JAXB Genertaed request wrapper bean, and its element name and the 
+			namespace for seralization
+
+
+@ResponseWrapper  - Supplies the JAXB Generated response wrapper been and the Elements name namespace for serilization
+
+
+---------------: SOAP :------------
+
+-> SOAP is a Simple XML based protocol,,,,to let applications exchange informations over HTTP
+
+
+
+
+SOAP Architecure.
+=====================
+
+
+
+Web Service :- Network Accessible Interface to application functionality.
+
+
+
+SOAP :- Simple Object Access Protocol Its XML Based protocol to let applications exchange informtions over HTTP
+
+        -> It provides the way to communicate between application running on different Operating Systems, 
+		with different technology and Programing Langugage
+
+
+
+SOAP Is verstile
+     Is Platform Indepdent 
+     Is Langugae Indepdent 
+     Is Simple and Extensible.
+
+
+
+
+SOAP Message Architecure 
+
+
+-> An Envelop   -> the envelop element is identifier for the XML document as SOAP message.
+-> A Header     -> Contains the Header infromtions
+-> A Body       -> Call and response infromation
+-> A Fault      -> Containing the errors abd Status infromation
+-> An Attachment-> filr attachment part of the SOAP.
+
+
+
+
+SOAP Faults messaged are the mechanism by which SOAP Applications report errors.
+It is a Interface to the Java Exceptions for a Java WS..
+
+
+
+
+
+---------------: WSDL :------------
+
+
+-> WSDL provides a model and a XML fromat to describe the web service.
+
+
+
+
+
+<!--------------WSDL Elements :---------------- >
+
+
+
+Types:- A Container for data Type defintions using XSD .
+
+Message:- An Abstract description and defintion of the data format/types is being communicated.
+
+Operation:- Descriptions of an actions Supported by the services.
+
+Port Type:- Set of Operations supported by one or more Endpoints
+
+Binding :- A Deinite Protocol and data format specification for a Particular Port type.
+
+Port : Its Single end point defines as a Combination of Binding and a Netwrok Address
+
+Service :- A Collection of related End Points
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

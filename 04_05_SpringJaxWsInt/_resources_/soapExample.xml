@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2001/12/soap-envelope">
+
+	<soap:Header>
+
+		<!-- Here you will have Header Blocks of the SOAP Message  -->
+
+		<!-- Header is Optional part of the SOAP , Security, Transactions , Message Persistance..Routing... --> 
+
+	</soap:Header>
+
+
+	<soap:Body>
+
+		<!-- Mandatory Part of a SOAP Message ..-->
+		<!-- Application Data will be provided here..-->
+	
+
+		<soap:Fault>
+			<faultCode>soap:Server</faultCode>
+			<faultString>Resoource Not Found</faultString>
+			<faultActior> http://localhost:8080/xyz/abc</faultActior>
+				<details>
+					<errors>
+						<message>http status 404..Resource Not Found </message>
+					</errors>
+				</details>	
+		</soap:Fault>	
+
+
+	</soapBody>
+
+	
+
+
+
+</soap:Envelope>

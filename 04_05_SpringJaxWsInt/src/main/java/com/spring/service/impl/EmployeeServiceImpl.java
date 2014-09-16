@@ -1,6 +1,6 @@
-package com.spring.ws.service.impl;
+package com.spring.service.impl;
 
-import com.spring.ws.service.EmployeeService;
+import com.spring.service.EmployeeService;
 
 public class EmployeeServiceImpl implements EmployeeService {
 

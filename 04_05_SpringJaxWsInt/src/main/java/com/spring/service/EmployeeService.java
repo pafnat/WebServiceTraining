@@ -1,4 +1,4 @@
-package com.spring.ws.service;
+package com.spring.service;
 
 public interface EmployeeService {
 
