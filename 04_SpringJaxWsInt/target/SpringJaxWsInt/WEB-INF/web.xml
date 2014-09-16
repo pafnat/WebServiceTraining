@@ -17,7 +17,7 @@
 
     <servlet-mapping>
         <servlet-name>JaxwsSpring</servlet-name>
-        <url-pattern>/sprJaxwsEx</url-pattern>
+        <url-pattern>/jaxwsSpring</url-pattern>
     </servlet-mapping>
 
 

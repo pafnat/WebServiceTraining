@@ -14,23 +14,20 @@
     ">
 
 
-    <!-- do url binding -->
-    <wss:binding url="sprJaxwsEx">
-        <wss:service>
-            <ws:service bean="#jaxwsSpring"></ws:service>
-        </wss:service>
-    </wss:binding>
-
-
-    <bean id="jaxwsSpring" class="com.spring.jaxws.ws.JaxWSSpringIntService">
+    <bean id="jaxwsSpring" class="com.spring.ws.JavaWSSpringIntegration">
         <property name="jaxwsSpring" ref="serviceBean"></property>
 
     </bean>
 
-    <bean id="serviceBean" class="com.spring.jaxws.service.impl.EmployeeServiceImpl"></bean>
+    <bean id="serviceBean" class="com.spring.ws.service.impl.EmployeeServiceImpl"></bean>
 
 
-
+    <!-- do url binding -->
+    <wss:binding url="jaxwsSpring">
+        <wss:service>
+            <ws:service bean="#jaxwsSpring"></ws:service>
+        </wss:service>
+    </wss:binding>
 
 
 
