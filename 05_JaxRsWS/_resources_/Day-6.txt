@@ -1,0 +1,121 @@
+Day-6
+--------------
+
+Java Web Service 
+
+JAX WS SOAP 
+JAX RS REST 
+
+
+What is difference between SOAP and REST ?
+
+When to Select a SOAP and a REST ?
+
+
+
+REST :- Representational State Transfer. is  Architecural style 
+
+
+w3c World Wide Web Consortium..
+ 
+Components:- Modules which take cares of the transformation of tha data
+Connectors:- Mechanism take care of Communication, Coordination among the Components.
+Data      :- Element of Information used in Components and Connectionots.
+
+RESTEasy from JBoss
+Apache CXF ..
+Jersy 
+
+
+
+
+
+
+
+
+RESTFull web services are built to work on Web . REST is an architecral style specifies constraints sunch as the 
+Uniform Interface .
+
+Data and Funcnality are considered as the Resources.
+Resources are accessed using the URI's Uniform Resource Identifiers.
+
+Its is Designed to use a StateLess communication Protocol .Its HTTP.
+
+REST is an Architecural style Clients and Servers Exchange representations of resources by using some
+Standards Interface and Protocol.
+
+
+REST ful applications are simple and lightweight ...and faster..
+
+URI's
+Uniform Interface :- Resources are maintained /operated using a fixed set of four operations..CRUD..Create, Update , Retrieve , Delete..
+                      GET, POST , PUT , DELETE 
+
+Annotaions used in REST.
+
+Message Format supported in REST ...XML, JSON, HTML , Plain Text , JPEG...
+
+Every interatiomc with a resource is Stateless ..
+
+
+What If we want to do a StateFul transactions. We need to use the Session Management.. URI Rewrtining..Cookies..Hidden form fields..
+
+
+Performance 
+Sclability 
+Modifiability
+
+
+@GET	:- Defines the reading access of the resources...Resource is never changed..Its is IDEMPOTENT. 
+@PUT	:- It Creates a new resource.
+@DELETE	:- It Removes the resources
+@POST	:- Update the exisiting resource or Create a new Resources.
+
+
+
+IDEMPOTENT :- Operations on the Resources...It can be repeated any number of times and the result will remain same.
+
+
+1+0= 1+0+0+0=1  (Operation is Addition and 0 is idempotent)
+10*1=10*1*1*1*1*1= (Operation is Multiplcation and 1 is idempotent)
+
+
+
+
+
+Interface  And Separate the Layers ....
+
+
+Maintanance 
+Support 
+Enhance A Application 
+Develop from mid ...
+
+
+
+
+Question :- 1) What is Importnace of having Interfaces on top of classes ?  
+
+		Hide more Expose Less...
+
+            Why We have multiple layers in the application development ?
+		
+		-> Separation Of Concern ...
+
+		-> Clean and Separate Life Style Or You want a messeup ...completx life style
+
+   	    What is StateLess Protocol ?
+
+ 	    What is difference between HTTP an Session...
+
+            What is Difference Between URI and URL ..
+
+	    What is query String ?  Append data in the URL/URI
+
+	    What is URL/URI re-writing ..Query String is used to add data in URL re-writing ..
+
+
+
+	
+
+
