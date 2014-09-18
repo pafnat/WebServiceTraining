@@ -1,0 +1,94 @@
+Day-7
+================
+
+JAX-RS Example....
+
+
+Deployment of war .
+
+-> Export a War file from IDE and Put it Inside WebApp
+-> Prepare a War file from CMD and Put it Inside WebApp
+-> Prepare war file and Deploy through Admin console in the Server Tomcat 6/7 JBoss..
+-> Configure IDE with Server (Tomcat6/7. JBoss...etc) and Directly Deploye from IDE Right Click->Run As->Server Config.
+-> Deploye War file by configuring Maven ..And Providing the Server details to maven And Deploye from CMD promt. with Maven Command.
+
+
+
+
+Debugging A Maven Project :-
+
+Maven 
+
+-> repositories :- from where the Maven downloading the depdencies are working fine.
+-> Build Plugins : - Whether Build Plugins are provided synching with other versions used.
+-> Whether Maven Install build successfully or not.
+
+
+Web.xml
+
+-> XSD version used.is correct or not
+-> Listners are perfect
+
+
+Others.
+
+
+-> If its JAX RS ...Service Class is Loaded or not...
+
+
+Effective Debugging Skill set.. ...
+
+Exception and Error Handling is a Important feature of the Framework..
+
+Spring is Best .... JSF 2.x  Has added these capabilities...Artificial Intelligence...
+
+JEE6 Vs Spring 
+
+
+-->  RestEasy  JBoss
+-->  Apache CXF
+-->  Jersy 
+
+
+what is a difference between spring mvc and JSF Or Struts or Wicket..Backbone.js ?
+what is a difference between spring And  mvc ?
+
+
+
+Spring Is Modular Soultion for Web Application Development , It has every thing which you need while 
+developing a Web Application 
+
+-> Core Container
+-> Spring MVC
+-> Spring Web
+-> Spring DAO
+-> Spring JDBC Template compare with Hibernate , Java JDBC...
+-> Spring JMS
+
+	
+
+RestEasy Handson....WS Classes will be loaded...
+
+And You need to try the data from other classes/alyers/ May  be create a JDBC /Hibernate connection to the DB and pull data from database and send back to the consumer
+
+-> We have seen a simple text format of data.
+
+-> We will do XML, JSON..format of the data for consumers..
+
+-> Jersy And Apache CXF...Discuss the difference between different Implementations...
+
+-> We will go back to the JAX WS...
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

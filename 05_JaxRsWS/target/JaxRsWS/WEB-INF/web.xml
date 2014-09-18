@@ -6,8 +6,14 @@
 
 	<display-name>Archetype Created Web Application</display-name>
 
-	<context-param>
-		<param-name>resteasy-scan</param-name>
+
+    <listener>
+        <listener-class>org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap</listener-class>
+    </listener>
+
+
+    <context-param>
+		<param-name>resteasy.scan</param-name>
 		<param-value>true</param-value>
 	</context-param>
 
@@ -18,9 +24,6 @@
 	</context-param>
 
 
-	<listener>
-		<listener-class>org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap</listener-class>
-	</listener>
 
 
 	<servlet>

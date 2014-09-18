@@ -8,6 +8,13 @@
     <name>JaxRsWS Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
+    <!-- it' always better to provide a direct path to the repositories -->
+    <repositories>
+        <repository>
+            <id>JBoss repository</id>
+            <url>https://repository.jboss.org/nexus/content/groups/public-jboss</url>
+        </repository>
+    </repositories>
 
     <dependencies>
 
@@ -24,6 +31,11 @@
             <version>2.3.7.Final</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>jaxrs-api</artifactId>
+            <version>2.2.1.GA</version>
+        </dependency>
 
 
     </dependencies>
@@ -31,6 +43,39 @@
 
     <build>
         <finalName>JaxRsWS</finalName>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.1.1</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.1</version>
+                <configuration>
+                    <url>http://localhost:8080/manager/text</url>
+                    <server>my-tomcat</server>
+                    <path>/JaxRsWS</path>
+                </configuration>
+            </plugin>
+
+        </plugins>
+
     </build>
 
 
