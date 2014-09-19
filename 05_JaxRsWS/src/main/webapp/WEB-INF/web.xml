@@ -12,10 +12,16 @@
     </listener>
 
 
-    <context-param>
+    <!--<context-param>
 		<param-name>resteasy.scan</param-name>
 		<param-value>true</param-value>
-	</context-param>
+	</context-param>-->
+
+    <!-- comment the below tag, and do register your services... it' not neccessary, in case if you have errors only ... -->
+    <context-param>
+        <param-name>resteasy.resources</param-name>
+        <param-value>com.jaxrs.JaxRSRestEasyService</param-value>
+    </context-param>
 
 
 	<context-param>

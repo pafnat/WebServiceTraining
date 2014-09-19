@@ -155,7 +155,7 @@ Note: - It’s online training program, trainees can attend session from home, n
 and a good quality headphone.
 
 What We Provide daily
-- Dailyclassnotes.
+- Daily classnotes.
 - Programs project exercise that we discuss.
 - High Quality PPT based on discussed subject
 - Assignments on daily basis that a candidate need to do and come up with solution or problem what he facing while doing that.
