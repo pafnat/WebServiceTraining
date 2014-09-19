@@ -1,0 +1,34 @@
+<flightInfo>
+	<flight1>
+		<flightNo>FL0987</flightNo>
+		<flightName>XYZ</flightName>
+		<flightTime>14:30</flightTime>
+		<flightSource>SRC</flightSource>	
+		<flightDest>DEST</flightDest>
+	</flight1>
+
+	<flight2>
+		<flightNo>FL0987</flightNo>
+		<flightName>XYZ</flightName>
+		<flightTime>14:30</flightTime>
+		<flightSource>SRC</flightSource>	
+		<flightDest>DEST</flightDest>
+	</flight2>
+
+	<flight3>
+		<flightNo>FL0987</flightNo>
+		<flightName>XYZ</flightName>
+		<flightTime>14:30</flightTime>
+		<flightSource>SRC</flightSource>	
+		<flightDest>DEST</flightDest>
+	</flight3>
+
+	<flight4>
+		<flightNo>FL0987</flightNo>
+		<flightName>XYZ</flightName>
+		<flightTime>14:30</flightTime>
+		<flightSource>SRC</flightSource>	
+		<flightDest>DEST</flightDest>
+	</flight4>
+
+</flightInfo>

@@ -1,0 +1,90 @@
+Day -8
+============
+
+
+Sunday 10:30 AM EST 
+Sunday 4:30  PM GMT
+Sunday 8:00 PM IST 
+
+Doubt Clearing Session ...
+
+
+
+Java Web Service 
+
+	-> SOAP Based (JAX WS)
+	-> REST Based (JAX RS)
+
+
+Hands Excersise 
+
+
+
+->How to Implement a RESTFull Web Service in a Spring Application ?
+-> Can you explain REST Implementaion ?
+-> Can you Explain REST WS Process flow .?
+
+
+Understing the REST Annotations & Media Type
+
+
+Media Type Or MIME Type Or format of the message...(XML, JSON , Simple Text, JPG ..)
+
+
+@Path("/restwsex")
+
+Travel Plans ..(Application Provides services to Book A Flight, Hotels, Cabs....)
+
+-> ServicesClasses gettingInforForFLights with Many Servcie Provider 
+
+	HRMS :- 
+	
+	-> Media Types
+		application/XML - You will have to prepare a XML Structure.
+	-> Parameters
+	-> Different Methods GET,PUT,POST,DELETE...
+
+	
+	
+
+->Annotations 
+	@Path
+	@GET
+	@POST
+	@PUT
+	@DELETE
+	@Produces
+	@PathParam
+
+
+what is a major difference from spring mvc ?
+
+
+What is JSON ?
+
+JSON : Java Script Object Notation..
+
+
+REST Full WS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
