@@ -1,0 +1,72 @@
+Day-9 Weekend Session
+
+Q. A client of SOAP Web Service access/ Consume the Services with the help of WSDL file, How it is consumed when
+its REST Web Services....?
+
+A.  With the help of URI:
+    URI - Uniform resource Identifies.
+    Everything thing in REST is resource.
+    Response can be JSON, XML, Plain Text
+    Next session we will start with JSON Object returned to Consumer.
+    Returned Object/Response can be JSON, XML, Plain Text
+    We will have consumer examples.
+
+Q. Where is Difference between URL and URI?
+
+    URI-> Resource Identifier.
+
+
+    URL-> Uniform Resource Locator
+    URL - subset of URI
+    Locator and Identifier.
+
+    URL:
+    http://google.com/calendar
+    ftp://google.com/calendar
+    https://google.com/calendar
+    ldap://google.com/calendar
+
+
+I need clarification on SOAP 1.1 and SOAP 1.2 in the respect of:
+1. How it differs from each other?
+
+
+
+2. Is there any code level changes we need to do to support both version?
+3. Is there any preferred version among two?
+    Yes 1.2
+4. Do these versions bother the web services development?
+    Yes it is, Soap 1.2 required for better integrations with frameworks Web standards, Web2.0
+
+Version - Every software/Concept/Framework launches it' upgraded version.
+Backward/Forward Compatibility.
+Backward - App developed in Java 1.7 and now run time is Java 1.5(Explicit)
+Forward - App developed in Java 1.5 and now run time is Java 1.7(Implicit/Explicit)
+        Suppress Warning...
+
+SOAP is a XML FIle...
+XML Protocol Working Group
+w3c - World Wide Web Consortium.. Provide you certification on Web Technologies.
+
+SOAP 1.1 - 2000, Designed a Protocol
+SOAP 1.2 - 2003, extended. Enhancement in SOAP 1.1 / Added Features /
+
+Backward Compatibility:
+Forward Compatibility: Implicit What ever SOAP 1.1 do.. SOAP 1.2 can do same...
+
+Technology is evolving, changing rapidly, changing every day, and it' the integration forces to upgrade every one
+Changing every day Because client need changes/requirement changes.
+
+
+SOAP 1.2 brings the Interoperability...
+
+** Ans: Both SOAP 1.1 and 1.2 is w3c standards.
+-> SOAP 1.2 Specification / Standard introduces several changes on SOAP 1.1
+-> SOAP 1.1 is based on XML, SOAP 1.2 is based on XML Information Set (XML Infoset)
+-> XML Infoset is a way to describe a XML using XSD / XML Schema
+
+(XML, XSD, XML Schema will be covered post).
+
+
+REST could be on demand, is better now...
+
