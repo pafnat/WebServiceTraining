@@ -1,0 +1,27 @@
+Day-10
+=============
+
+
+->JSON :- Java Script Object Notation
+
+-> JSON is Light weight data interchange format.
+
+-> JSON is also language indepedent.
+
+-> 
+
+
+Day-10..+ Rest 5
+
+SOAP -5
+
+
+Sound / Nois
+
+
+Project ....
+
+
+Spring +Hibernate = 4-5 Day Development 
+
+Assignment will be divided

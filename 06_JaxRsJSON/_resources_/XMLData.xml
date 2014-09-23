@@ -1,0 +1,26 @@
+<students>
+	<studentDetails>
+		<name>Ravi</name>
+		<degree>Masters</degree>	
+		<contactNu>098765431</contactNu>
+	</studentDetails>
+
+	<studentDetails>
+		<name>Ravi</name>
+		<degree>Masters</degree>	
+		<contactNu>098765431</contactNu>
+	</studentDetails>
+	
+	<studentDetails>
+		<name>Ravi</name>
+		<degree>Masters</degree>	
+		<contactNu>098765431</contactNu>
+	</studentDetails>
+	
+	<studentDetails>
+		<name>Ravi</name>
+		<degree>Masters</degree>	
+		<contactNu>098765431</contactNu>
+	</studentDetails>
+
+</students>
