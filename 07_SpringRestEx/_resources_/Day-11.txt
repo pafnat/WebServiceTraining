@@ -1,0 +1,52 @@
+Day-11
+==============
+
+
+
+Examples To be discussed this week
+
+-> RestEasy XML Data format..Service Provider..
+-> Spring Restfull web service 
+-> Spring Restfull web service Integration
+
+
+-> RESTEasy JSON and XML Consumer Examples.
+-> Paramerised Services Exposing ans Response.
+-> Jersy  Implentation Examples..
+
+
+-> Spring + Hibernate + REST + Database MySQL ..Project Work ...Bussines Logic...
+
+
+-> SOAP Based..
+
+
+-> Returned Object/Response can be JSON, XML, Plain TEXT/HTML
+
+
+<employee>
+	<empDetails>
+		<firstName>XYZ1</firstName>
+		<lastName>ABC</lastName>
+	</empDetails>
+	<empDetails>
+		<firstName>XYZ2</firstName>
+		<lastName>ABC</lastName>
+	</empDetails>
+	<empDetails>
+		<firstName>XYZ3</firstName>
+		<lastName>ABC</lastName>
+	</empDetails>
+	<empDetails>
+		<firstName>XYZ</firstName>
+		<lastName>ABC</lastName>
+	</empDetails>
+	<empDetails>
+		<firstName>XYZ</firstName>
+		<lastName>ABC</lastName>
+	</empDetails>
+	<empDetails>
+		<firstName>XYZ</firstName>
+		<lastName>ABC</lastName>
+	</empDetails>
+</em>ployee
