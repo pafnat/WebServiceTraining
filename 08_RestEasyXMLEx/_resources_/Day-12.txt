@@ -1,0 +1,51 @@
+Day-12
+============
+
+->RestEasy Web Service Example we have seen 
+	
+	MediaType 	text/html
+			JSON
+			XML   ()
+
+
+->Spring Rest full web services example...Privided by Spring Example Done on Day -11
+	Providing media type XML, JSON, Text/html
+
+
+-> Jersy REST Implementation. :- Restfull web service implementation like JBoss Resteasy 
+
+
+
+-> 
+
+MediaType :- XML
+
+	Fresh New Workspace :
+				->JDK Path Config
+				->Server Configuration (Both Tomcat 7 and JBoss 7.1 AS done)
+
+	RESTEasy XML Example
+		Dependency Needed -> RestEasy 
+				   -> JAXB 		
+				
+
+
+REST is a Concept : Representation State Model.
+
+-> RestEasy from JBoss provide the Implementation 
+-> Jersy Provides the Implemetation 
+-> Apache CXF Provides the Implementation
+-> Spring Provides the Implementation.
+
+MVC is concept/Desgin Pattern 
+
+-> Struts
+-> JSF
+-> Spring MVC 
+
+Coming Sessions.
+
+-> Jersy Example 
+-> Web Services with Parameters will be discussed.
+
+			
