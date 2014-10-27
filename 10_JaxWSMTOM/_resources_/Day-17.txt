@@ -1,0 +1,34 @@
+XML 
+
+DTD :- 
+
+OfflIne System..
+
+Well formed XML ...Data type...Data Length...What Data it willl(tag) have.
+
+SELECT EMPNAME,DOB from EMPLOYEETABLE;
+
+
+Spring, Hibernate , Web Service..
+
+
+XML, DTD , Attribute 
+
+
+Schema :- 
+
+
+DOM Parser 
+SAX Parser 
+
+->Security
+->SAAJ....
+
+Weekend.
+
+Complete Application Development . 
+
+Sp
+
+
+

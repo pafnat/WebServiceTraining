@@ -1,0 +1,158 @@
+Day -16 
+==================
+
+
+Topics To Be Covered 
+=========================
+
+SOAP Based Web Services...XML , XSD , Schema , DTD. 
+	Understanding the WSDL File and SOAP Messages.
+
+Web Service Attachments.
+
+Web Service Security. 
+
+
+
+
+
+
+
+Version Compatibility 
+
+
+1)Java6 With Tomcat 6 
+2)Java7 With Tomcat 7 
+3)Java6 With Tomcat 7
+4)Java7 With Tomcat 6
+
+
+Implementation we are doing. Dependecy We are adding.
+
+web.xml
+
+jee specification changes..
+
+
+
+
+------------XML --------------------
+
+What Is XML ?.
+
+
+-> Extensible Markup Language . 
+-> Similar to HTML 
+-> HTML is using predefined tags where as XML is using User Defined Tags.
+-> HTML Is used to represent/display data 
+	XML is used to describe Data, Manage Data.
+
+-> XML can also used as database. XQuery, XPATH ....XSLT ..to manage operate transform data.. (XML Developers)
+-> XML uses DTD (Document Type Definition)  to formally describe data.
+
+
+
+
+
+Database resource
+
+Java Resource 
+	Web Application Developers ()
+	Multithreading environment developers (Banking and Fianance.)
+	java Netwrok Domain develoers (corba, RMI)
+
+XML Resource (XML, XPath, XQuery...XSLT ,, XSL fo).
+
+
+XML Data can be converted into any format using the XSLT (Extensible Stylesheet Language Transformation, XSL fo Object)
+
+	XML-> PDF, txt, HTML , XSL ......
+
+
+
+XML is Future Of Web Development .. .4-5 Years Back...
+
+
+XML is a data format . 
+
+ODM -> Object Document Model . ...XML ODM Data format ...CSV..
+
+
+
+JSON is not evolved. 
+
+java script is evoling
+
+XML Resource (XML, XPath, XQuery...XSLT ,, XSL fo).
+
+jqery...gwt..Prototype.js.....AJAX.....Dojo........richfaces.primefaces...aquafaces..angular.js ..backbone.js..node.js ..replaces MVC Fraewok..Struts , JSF is being replcaed by angular.js
+
+Satitical Graph representation ..js library .
+
+
+
+Syntax of a XML File .
+
+	-> XML Tags are case sensitive
+	-> Every XML tags shold be closed
+	-> Every XML elements must be properly nested
+	-> Every XML document must have a root element
+	-> Attribute must always be quoted
+
+
+
+
+XML Attribute ... 
+
+
+XML is fastest way of data communication format/ data traveling format..
+
+
+
+
+## Well Formed XML 
+## Validated XML..
+
+
+
+-----------> XML DTD 
+
+	Purpose of the DTD is to define the legal building blocks of an XML document .. it declares the structure of the legal elements .
+
+
+
+
+
+
+
+DTD , Schema And Attribute ..
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

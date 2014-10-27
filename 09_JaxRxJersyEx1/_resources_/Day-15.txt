@@ -1,0 +1,26 @@
+
+Jersy :- JAX RS Implementations.
+Jersy Implementation Provides you the librry to implement Restfull web services using a Servlet Container.
+
+On the server side Jersy, Servlet container scans the prediefned classes to identify the services.
+
+Servlet Container anaylyze the incoming request.Its scans the URI and invoke the specific service class to 
+handle the request and prepare the response.
+
+The Response may be Text,HTML, XML, JSON.....
+
+
+
+
+
+-> Parametric Request from the Client And Handling
+-> Generate XML using Jersy. 
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<employee>
+	<age>2</age>
+	<firstName>Ajay</firstName>
+</employee>

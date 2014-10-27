@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE note [
+
+	<! ELEMENTS employee (emp)>
+	<! ELEMENTS emp (name,gender,profilePic)>
+	<! ELEMENTS age<100>
+
+
+
+
+
+
+>]
+
+<employee details='This is the list of emp of xya org'>
+	<emp id="1">
+		<name>AJAY</name>
+		<gender>M</gender>
+		<profilePic src="D:\Training Repository\Java Web Service Sept 2014 Batch\Daily Notes\Day-16">Data Exchange.png</profilePic>
+		<skillSet>
+			<primary>Java</primary>
+			<secondary>SQL</secondary>
+		</skillSet>
+	</emp>
+
+	<emp id="2">
+		<name>Ebrahim</name>
+		<gender>M</gender>
+		<age>30</age>
+	</emp>
+
+	<emp id="3">
+		<name>Ravi</name>
+		<gender>M</gender>
+	
+	</emp>
+	<emp id="4">
+		<name>Pavel</name>
+		<gender>M</gender>
+	</emp>
+
+	<emp id="5">
+		<name>Aman</name>
+		<gender>M</gender>
+	</emp>
+</employee>

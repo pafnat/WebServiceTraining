@@ -1,0 +1,10 @@
+<xmlns:s="http://www.w3.org/2001/XMLSchema"?
+
+xs:integer 
+xs:poitiveInteger 
+xs:byte
+xs:long
+
+
+
+corresponding to every Java data type there are similar data type present in schema 

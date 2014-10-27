@@ -1,0 +1,76 @@
+Day-18
+===========
+
+SOAP With Attachment 
+And Web Service Security.(JAX RS- And JAX WS)
+
+
+Qn-> Which cercumstances of the project JAX-RS or JAX WS is selected..?
+
+    JAX RPC is in Use.
+
+
+**Spring, Hibernate Integration Implementing Web Services.
+
+
+SOAP :-> is a XML Based Protocol to let applications exchange information over the HTTP.
+
+
+****SOAP Architecure***
+
+
+An Envelope      :- This identifies the XML Document as a SOAP Message.
+A Header        :- A Header Element  that contains the Header informations.
+A Body          :- A Body Element that contains call and response informations.
+A Fault         :- A Fault Element Containing Error and Status Informations  
+An Attachment   :- "Optional" Attachment parts for the file. 
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
+soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
+
+<soap:Header>
+	<!-- SOAP Header Parts comes here-->
+</soap:Header>
+
+<soap:Body>
+	<mvi:bookTicket>
+		<mvi:Name> XYZ </mvi:Name>
+		<mvi:TheaterName> XYZ </mvi:TheaterName>
+		<mvi:time> 12:10</mvi:time>
+	</mvi:bookTicket>
+
+
+	<mvi:bookTicketResponse>
+
+	</mvi:bookTicketResponse>
+	<!-- SOAP Body Parts comes here-->
+
+	<soap:Faults>
+	<!-- SOAP Faults Parts comes here-->
+		
+		<faultCode>soap:Server<faultCode>		
+		<faultString> </faultString>
+		<faultactor> </faultactor>
+		
+		<details>
+		
+		</details>
+
+	</soap:Faults>
+
+</soap:Body>
+
+
+
+MTOM :- Message Transmission Optimization Mechnism  
+XOP  :- XML Binary Optimization Packaging 
+
+
+<soap:Body>
+	<!-- SOAP Body Parts comes here-->
+</soap:Body>
+
+</soap:Envelope>

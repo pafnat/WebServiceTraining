@@ -1,0 +1,33 @@
+Day-14
+==============
+
+
+JAX RS - RestEasy .. JBoss...
+
+
+
+Jersy
+
+
+D:\Training Repository\Java Web Service Sept 2014 Batch\MavenProjects\JaxRxJersyEx1>mvn archetype:generate -DgroupId=com.jaxrs.jersy -DartifactId=JaxRxJersyEx1 -Darchetyp
+bapp -DinteractiveMode=false
+
+mvn eclipse:eclipse -Dwtpversion=2.0
+
+-> Adding Repository 
+
+-> Adding Specific dependency 
+
+
+Traditional Approach:-
+
+Download dependency, And Add to your Project build path...
+
+
+Jersy 
+
+Primary Source of Dependency -maven.java.net
+Secondary Source 	     -http://mvnrepository.com/	
+Tertiary Source              -${user.home}/.m2/repository    		 
+
+Spring 

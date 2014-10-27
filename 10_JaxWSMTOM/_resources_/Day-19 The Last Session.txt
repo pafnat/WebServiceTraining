@@ -1,0 +1,106 @@
+Day-19 The Last Session
+============================
+
+
+
+=>One thing i probably missed, is baout style.. RPC vs document.. 
+
+
+Web Service Security
+
+
+
+
+-> Confidentiality 
+
+-> Authentication 
+
+-> Net Work Security 
+
+
+
+Confidentiality
+  -> Running in HTTPS
+  -> Encrytpting the communication via SSL
+  
+
+Authentication 
+  -> SAML Integration   -Security Authentication Markuo Language ...
+  -> LDAP Authntication 
+
+
+HTTP-> HTTPS 
+
+Domain -Org - User Account -> System .all org accounts....
+
+100 App 
+
+New Application Development .
+
+
+
+WSS :- Web Service Security 
+
+	SAML 
+	Kerboros
+	X.509
+
+
+
+Reverse Proxy ...
+
+
+Provider:- 
+
+IP (Unique) -> URI / URL -> Allow/Block /Customized-> 
+
+
+Consumer :- Security Certicate . 
+
+ 
+
+
+PPT 
+
+REST Vs SOAP 
+
+->Many Media/Dat Types permitted in REST 
+-> SOAP Only Allows XML 
+-> REST Access allowed with named resources/ or with the help of URI 
+-> REST has a better performance and sclability 
+
+-> JSON is better fit for data and parses much faster tham XML. 
+-> REST allows better support for browser client due to its support for JSON .
+-> SOAP is More secured due to the wide range of encrytion standard avaiable .
+-> REST Reads can be cached but SOAP based reads can not be cached.
+
+
+O2 Notation ...
+
+07:36: in a scenario where I return number of employee records of a department as an arraylist of Employee objects.. I feel SOAP makes more sense than REST, is that right? 
+
+Compiler/Pareser is Program . 
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+  
